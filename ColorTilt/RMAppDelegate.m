@@ -7,14 +7,18 @@
 //
 
 #import "RMAppDelegate.h"
+#import "RMMenuViewController.h"
 
 @implementation RMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    RMMenuViewController *menuVC = [[RMMenuViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:menuVC];
+    
+    [self.window setRootViewController:nc];
     [self.window makeKeyAndVisible];
     return YES;
 }

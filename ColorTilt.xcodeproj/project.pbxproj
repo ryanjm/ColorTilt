@@ -16,6 +16,14 @@
 		1C58072C188DB3A7008E5186 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C58072B188DB3A7008E5186 /* Default.png */; };
 		1C58072E188DB3A7008E5186 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C58072D188DB3A7008E5186 /* Default@2x.png */; };
 		1C580730188DB3A7008E5186 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C58072F188DB3A7008E5186 /* Default-568h@2x.png */; };
+		1C580738188DB3F1008E5186 /* RMColorTilt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C580737188DB3F1008E5186 /* RMColorTilt.m */; };
+		1C58073A188DB794008E5186 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C580739188DB794008E5186 /* CoreMotion.framework */; };
+		1C99BFDE18A58DB000F3735D /* RMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C99BFDC18A58DB000F3735D /* RMMenuViewController.m */; };
+		1C99BFDF18A58DB000F3735D /* RMMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C99BFDD18A58DB000F3735D /* RMMenuViewController.xib */; };
+		1C99BFE418A595AD00F3735D /* RMAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C99BFE218A595AD00F3735D /* RMAutoLayoutViewController.m */; };
+		1C99BFE518A595AD00F3735D /* RMAutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C99BFE318A595AD00F3735D /* RMAutoLayoutViewController.xib */; };
+		1C99BFE818A5981E00F3735D /* iPhone-Launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C99BFE718A5981E00F3735D /* iPhone-Launch@2x.png */; };
+		1C99BFEA18A59CC300F3735D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C99BFE918A59CC300F3735D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,17 @@
 		1C58072B188DB3A7008E5186 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1C58072D188DB3A7008E5186 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1C58072F188DB3A7008E5186 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C580736188DB3F1008E5186 /* RMColorTilt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMColorTilt.h; path = Views/RMColorTilt.h; sourceTree = "<group>"; };
+		1C580737188DB3F1008E5186 /* RMColorTilt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMColorTilt.m; path = Views/RMColorTilt.m; sourceTree = "<group>"; };
+		1C580739188DB794008E5186 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1C99BFDB18A58DB000F3735D /* RMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMMenuViewController.h; path = ViewControllers/RMMenuViewController.h; sourceTree = "<group>"; };
+		1C99BFDC18A58DB000F3735D /* RMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMMenuViewController.m; path = ViewControllers/RMMenuViewController.m; sourceTree = "<group>"; };
+		1C99BFDD18A58DB000F3735D /* RMMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RMMenuViewController.xib; path = ViewControllers/RMMenuViewController.xib; sourceTree = "<group>"; };
+		1C99BFE118A595AD00F3735D /* RMAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMAutoLayoutViewController.h; path = ViewControllers/RMAutoLayoutViewController.h; sourceTree = "<group>"; };
+		1C99BFE218A595AD00F3735D /* RMAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMAutoLayoutViewController.m; path = ViewControllers/RMAutoLayoutViewController.m; sourceTree = "<group>"; };
+		1C99BFE318A595AD00F3735D /* RMAutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RMAutoLayoutViewController.xib; path = ViewControllers/RMAutoLayoutViewController.xib; sourceTree = "<group>"; };
+		1C99BFE718A5981E00F3735D /* iPhone-Launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-Launch@2x.png"; sourceTree = "<group>"; };
+		1C99BFE918A59CC300F3735D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C58073A188DB794008E5186 /* CoreMotion.framework in Frameworks */,
 				1C58071A188DB3A6008E5186 /* UIKit.framework in Frameworks */,
 				1C58071C188DB3A6008E5186 /* Foundation.framework in Frameworks */,
 				1C58071E188DB3A6008E5186 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +71,7 @@
 		1C58070D188DB3A6008E5186 = {
 			isa = PBXGroup;
 			children = (
+				1C99BFE718A5981E00F3735D /* iPhone-Launch@2x.png */,
 				1C58071F188DB3A6008E5186 /* ColorTilt */,
 				1C580718188DB3A6008E5186 /* Frameworks */,
 				1C580717188DB3A6008E5186 /* Products */,
@@ -71,6 +92,7 @@
 				1C580719188DB3A6008E5186 /* UIKit.framework */,
 				1C58071B188DB3A6008E5186 /* Foundation.framework */,
 				1C58071D188DB3A6008E5186 /* CoreGraphics.framework */,
+				1C580739188DB794008E5186 /* CoreMotion.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,9 +100,14 @@
 		1C58071F188DB3A6008E5186 /* ColorTilt */ = {
 			isa = PBXGroup;
 			children = (
+				1C580720188DB3A6008E5186 /* Supporting Files */,
 				1C580728188DB3A6008E5186 /* RMAppDelegate.h */,
 				1C580729188DB3A6008E5186 /* RMAppDelegate.m */,
-				1C580720188DB3A6008E5186 /* Supporting Files */,
+				1C580736188DB3F1008E5186 /* RMColorTilt.h */,
+				1C580737188DB3F1008E5186 /* RMColorTilt.m */,
+				1C99BFE018A58FBE00F3735D /* Menu */,
+				1C99BFE618A5978B00F3735D /* ViewControllers */,
+				1C99BFE918A59CC300F3735D /* Images.xcassets */,
 			);
 			path = ColorTilt;
 			sourceTree = "<group>";
@@ -97,6 +124,26 @@
 				1C58072F188DB3A7008E5186 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C99BFE018A58FBE00F3735D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1C99BFDB18A58DB000F3735D /* RMMenuViewController.h */,
+				1C99BFDC18A58DB000F3735D /* RMMenuViewController.m */,
+				1C99BFDD18A58DB000F3735D /* RMMenuViewController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		1C99BFE618A5978B00F3735D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C99BFE118A595AD00F3735D /* RMAutoLayoutViewController.h */,
+				1C99BFE218A595AD00F3735D /* RMAutoLayoutViewController.m */,
+				1C99BFE318A595AD00F3735D /* RMAutoLayoutViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C580724188DB3A6008E5186 /* InfoPlist.strings in Resources */,
+				1C99BFEA18A59CC300F3735D /* Images.xcassets in Resources */,
+				1C99BFE818A5981E00F3735D /* iPhone-Launch@2x.png in Resources */,
 				1C58072C188DB3A7008E5186 /* Default.png in Resources */,
+				1C99BFE518A595AD00F3735D /* RMAutoLayoutViewController.xib in Resources */,
+				1C99BFDF18A58DB000F3735D /* RMMenuViewController.xib in Resources */,
 				1C58072E188DB3A7008E5186 /* Default@2x.png in Resources */,
 				1C580730188DB3A7008E5186 /* Default-568h@2x.png in Resources */,
 			);
@@ -165,8 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C99BFE418A595AD00F3735D /* RMAutoLayoutViewController.m in Sources */,
+				1C99BFDE18A58DB000F3735D /* RMMenuViewController.m in Sources */,
 				1C580726188DB3A6008E5186 /* main.m in Sources */,
 				1C58072A188DB3A6008E5186 /* RMAppDelegate.m in Sources */,
+				1C580738188DB3F1008E5186 /* RMColorTilt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +299,8 @@
 		1C580734188DB3A7008E5186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
 				INFOPLIST_FILE = "ColorTilt/ColorTilt-Info.plist";
@@ -256,6 +312,8 @@
 		1C580735188DB3A7008E5186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
 				INFOPLIST_FILE = "ColorTilt/ColorTilt-Info.plist";
@@ -283,6 +341,7 @@
 				1C580735188DB3A7008E5186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
