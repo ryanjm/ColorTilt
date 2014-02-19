@@ -18,6 +18,15 @@
 		1C580730188DB3A7008E5186 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C58072F188DB3A7008E5186 /* Default-568h@2x.png */; };
 		1C580738188DB3F1008E5186 /* RMColorTilt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C580737188DB3F1008E5186 /* RMColorTilt.m */; };
 		1C58073A188DB794008E5186 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C580739188DB794008E5186 /* CoreMotion.framework */; };
+		1C7D02D118AC196F00B9C328 /* RMAutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D02D018AC196F00B9C328 /* RMAutoLayoutTableViewController.m */; };
+		1C7D02D418AC1A1000B9C328 /* RMDynamicItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D02D318AC1A1000B9C328 /* RMDynamicItemCell.m */; };
+		1C7D02D718AC1AB200B9C328 /* RMDynamicItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D02D618AC1AB200B9C328 /* RMDynamicItemCell.xib */; };
+		1C7D02D918AD5C1700B9C328 /* RMTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D02D818AD5C1700B9C328 /* RMTextViewCell.xib */; };
+		1C7D02DC18AD5C3B00B9C328 /* RMTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D02DB18AD5C3B00B9C328 /* RMTextViewCell.m */; };
+		1C7D02DF18AD5CF400B9C328 /* RMTextViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D02DE18AD5CF400B9C328 /* RMTextViewTableViewController.m */; };
+		1C7D02E318B1597400B9C328 /* RMColorMathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D02E118B1597400B9C328 /* RMColorMathViewController.m */; };
+		1C7D02E418B1597400B9C328 /* RMColorMathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D02E218B1597400B9C328 /* RMColorMathViewController.xib */; };
+		1C7D02E718B15DAE00B9C328 /* KeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D02E618B15DAE00B9C328 /* KeyValueObserver.m */; };
 		1C99BFDE18A58DB000F3735D /* RMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C99BFDC18A58DB000F3735D /* RMMenuViewController.m */; };
 		1C99BFDF18A58DB000F3735D /* RMMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C99BFDD18A58DB000F3735D /* RMMenuViewController.xib */; };
 		1C99BFE418A595AD00F3735D /* RMAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C99BFE218A595AD00F3735D /* RMAutoLayoutViewController.m */; };
@@ -43,6 +52,21 @@
 		1C580736188DB3F1008E5186 /* RMColorTilt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMColorTilt.h; path = Views/RMColorTilt.h; sourceTree = "<group>"; };
 		1C580737188DB3F1008E5186 /* RMColorTilt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMColorTilt.m; path = Views/RMColorTilt.m; sourceTree = "<group>"; };
 		1C580739188DB794008E5186 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1C7D02CF18AC196F00B9C328 /* RMAutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMAutoLayoutTableViewController.h; path = ViewControllers/RMAutoLayoutTableViewController.h; sourceTree = "<group>"; };
+		1C7D02D018AC196F00B9C328 /* RMAutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMAutoLayoutTableViewController.m; path = ViewControllers/RMAutoLayoutTableViewController.m; sourceTree = "<group>"; };
+		1C7D02D218AC1A1000B9C328 /* RMDynamicItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMDynamicItemCell.h; path = Views/RMDynamicItemCell.h; sourceTree = "<group>"; };
+		1C7D02D318AC1A1000B9C328 /* RMDynamicItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMDynamicItemCell.m; path = Views/RMDynamicItemCell.m; sourceTree = "<group>"; };
+		1C7D02D618AC1AB200B9C328 /* RMDynamicItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMDynamicItemCell.xib; sourceTree = "<group>"; };
+		1C7D02D818AD5C1700B9C328 /* RMTextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RMTextViewCell.xib; path = Views/RMTextViewCell.xib; sourceTree = "<group>"; };
+		1C7D02DA18AD5C3B00B9C328 /* RMTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMTextViewCell.h; path = Views/RMTextViewCell.h; sourceTree = "<group>"; };
+		1C7D02DB18AD5C3B00B9C328 /* RMTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMTextViewCell.m; path = Views/RMTextViewCell.m; sourceTree = "<group>"; };
+		1C7D02DD18AD5CF400B9C328 /* RMTextViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMTextViewTableViewController.h; path = ViewControllers/RMTextViewTableViewController.h; sourceTree = "<group>"; };
+		1C7D02DE18AD5CF400B9C328 /* RMTextViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMTextViewTableViewController.m; path = ViewControllers/RMTextViewTableViewController.m; sourceTree = "<group>"; };
+		1C7D02E018B1597400B9C328 /* RMColorMathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMColorMathViewController.h; path = ViewControllers/RMColorMathViewController.h; sourceTree = "<group>"; };
+		1C7D02E118B1597400B9C328 /* RMColorMathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMColorMathViewController.m; path = ViewControllers/RMColorMathViewController.m; sourceTree = "<group>"; };
+		1C7D02E218B1597400B9C328 /* RMColorMathViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RMColorMathViewController.xib; path = ViewControllers/RMColorMathViewController.xib; sourceTree = "<group>"; };
+		1C7D02E518B15DAE00B9C328 /* KeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueObserver.h; sourceTree = "<group>"; };
+		1C7D02E618B15DAE00B9C328 /* KeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueObserver.m; sourceTree = "<group>"; };
 		1C99BFDB18A58DB000F3735D /* RMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMMenuViewController.h; path = ViewControllers/RMMenuViewController.h; sourceTree = "<group>"; };
 		1C99BFDC18A58DB000F3735D /* RMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMMenuViewController.m; path = ViewControllers/RMMenuViewController.m; sourceTree = "<group>"; };
 		1C99BFDD18A58DB000F3735D /* RMMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RMMenuViewController.xib; path = ViewControllers/RMMenuViewController.xib; sourceTree = "<group>"; };
@@ -100,6 +124,7 @@
 		1C58071F188DB3A6008E5186 /* ColorTilt */ = {
 			isa = PBXGroup;
 			children = (
+				1C7D02E818B15DBC00B9C328 /* Helper Classes */,
 				1C580720188DB3A6008E5186 /* Supporting Files */,
 				1C580728188DB3A6008E5186 /* RMAppDelegate.h */,
 				1C580729188DB3A6008E5186 /* RMAppDelegate.m */,
@@ -107,6 +132,7 @@
 				1C580737188DB3F1008E5186 /* RMColorTilt.m */,
 				1C99BFE018A58FBE00F3735D /* Menu */,
 				1C99BFE618A5978B00F3735D /* ViewControllers */,
+				1C7D02D518AC1A7A00B9C328 /* Cell */,
 				1C99BFE918A59CC300F3735D /* Images.xcassets */,
 			);
 			path = ColorTilt;
@@ -126,6 +152,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1C7D02D518AC1A7A00B9C328 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1C7D02D218AC1A1000B9C328 /* RMDynamicItemCell.h */,
+				1C7D02D318AC1A1000B9C328 /* RMDynamicItemCell.m */,
+				1C7D02D618AC1AB200B9C328 /* RMDynamicItemCell.xib */,
+				1C7D02D818AD5C1700B9C328 /* RMTextViewCell.xib */,
+				1C7D02DA18AD5C3B00B9C328 /* RMTextViewCell.h */,
+				1C7D02DB18AD5C3B00B9C328 /* RMTextViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1C7D02E818B15DBC00B9C328 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1C7D02E518B15DAE00B9C328 /* KeyValueObserver.h */,
+				1C7D02E618B15DAE00B9C328 /* KeyValueObserver.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
 		1C99BFE018A58FBE00F3735D /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +190,13 @@
 				1C99BFE118A595AD00F3735D /* RMAutoLayoutViewController.h */,
 				1C99BFE218A595AD00F3735D /* RMAutoLayoutViewController.m */,
 				1C99BFE318A595AD00F3735D /* RMAutoLayoutViewController.xib */,
+				1C7D02CF18AC196F00B9C328 /* RMAutoLayoutTableViewController.h */,
+				1C7D02D018AC196F00B9C328 /* RMAutoLayoutTableViewController.m */,
+				1C7D02DD18AD5CF400B9C328 /* RMTextViewTableViewController.h */,
+				1C7D02DE18AD5CF400B9C328 /* RMTextViewTableViewController.m */,
+				1C7D02E018B1597400B9C328 /* RMColorMathViewController.h */,
+				1C7D02E118B1597400B9C328 /* RMColorMathViewController.m */,
+				1C7D02E218B1597400B9C328 /* RMColorMathViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -201,11 +256,14 @@
 				1C580724188DB3A6008E5186 /* InfoPlist.strings in Resources */,
 				1C99BFEA18A59CC300F3735D /* Images.xcassets in Resources */,
 				1C99BFE818A5981E00F3735D /* iPhone-Launch@2x.png in Resources */,
+				1C7D02E418B1597400B9C328 /* RMColorMathViewController.xib in Resources */,
 				1C58072C188DB3A7008E5186 /* Default.png in Resources */,
 				1C99BFE518A595AD00F3735D /* RMAutoLayoutViewController.xib in Resources */,
 				1C99BFDF18A58DB000F3735D /* RMMenuViewController.xib in Resources */,
 				1C58072E188DB3A7008E5186 /* Default@2x.png in Resources */,
 				1C580730188DB3A7008E5186 /* Default-568h@2x.png in Resources */,
+				1C7D02D918AD5C1700B9C328 /* RMTextViewCell.xib in Resources */,
+				1C7D02D718AC1AB200B9C328 /* RMDynamicItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +276,15 @@
 			files = (
 				1C99BFE418A595AD00F3735D /* RMAutoLayoutViewController.m in Sources */,
 				1C99BFDE18A58DB000F3735D /* RMMenuViewController.m in Sources */,
+				1C7D02DC18AD5C3B00B9C328 /* RMTextViewCell.m in Sources */,
+				1C7D02E318B1597400B9C328 /* RMColorMathViewController.m in Sources */,
+				1C7D02E718B15DAE00B9C328 /* KeyValueObserver.m in Sources */,
 				1C580726188DB3A6008E5186 /* main.m in Sources */,
+				1C7D02D418AC1A1000B9C328 /* RMDynamicItemCell.m in Sources */,
 				1C58072A188DB3A6008E5186 /* RMAppDelegate.m in Sources */,
+				1C7D02DF18AD5CF400B9C328 /* RMTextViewTableViewController.m in Sources */,
 				1C580738188DB3F1008E5186 /* RMColorTilt.m in Sources */,
+				1C7D02D118AC196F00B9C328 /* RMAutoLayoutTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

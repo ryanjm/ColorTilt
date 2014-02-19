@@ -13,5 +13,6 @@
 - (IBAction)autoLayoutButtonTapped:(id)sender;
 - (IBAction)dynamicTableButtonTapped:(id)sender;
 - (IBAction)colorsButtonTapped:(id)sender;
+- (IBAction)dynamicTextCellsButtonTapped:(id)sender;
 
 @end

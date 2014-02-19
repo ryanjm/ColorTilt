@@ -9,6 +9,9 @@
 #import "RMMenuViewController.h"
 
 #import "RMAutoLayoutViewController.h"
+#import "RMAutoLayoutTableViewController.h"
+#import "RMTextViewTableViewController.h"
+#import "RMColorMathViewController.h"
 
 @interface RMMenuViewController ()
 
@@ -29,6 +32,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"Menu";
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,6 +43,7 @@
 
 - (BOOL)shouldAutorotate
 {
+    NSLog(@"shouldAutorotate --");
     return YES;
 }
 
@@ -50,8 +55,17 @@
 }
 
 - (IBAction)dynamicTableButtonTapped:(id)sender {
+    RMAutoLayoutTableViewController *vc = [[RMAutoLayoutTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (IBAction)colorsButtonTapped:(id)sender {
+    RMColorMathViewController *vc = [[RMColorMathViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)dynamicTextCellsButtonTapped:(id)sender {
+    RMTextViewTableViewController *vc = [[RMTextViewTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 @end

@@ -66,12 +66,14 @@
 #pragma mark - UITextViewDelegate
 
 - (void)textViewDidChange:(UITextView *)textView {
-    [self.textView needsUpdateConstraints];
+//    [self.textView needsUpdateConstraints];
     
     self.textLabel.text = textView.text;
     
-    NSLog(@"%@", NSStringFromCGRect(self.scrollView.frame));
-    NSLog(@"%@", NSStringFromCGSize(self.scrollView.contentSize));
+    CGFloat height = [self.textView sizeThatFits:CGSizeMake(textView.frame.size.width, 9999)].height;
+    NSLog(@"%f", height);
+//    NSLog(@"%@", NSStringFromCGRect(self.scrollView.frame));
+//    NSLog(@"%@", NSStringFromCGSize(self.scrollView.contentSize));
 }
 
 #pragma mark - Keyboard

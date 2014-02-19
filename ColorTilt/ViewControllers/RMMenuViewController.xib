@@ -16,7 +16,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fo8-ty-Pr3">
-                    <rect key="frame" x="20" y="218" width="280" height="30"/>
+                    <rect key="frame" x="20" y="100" width="280" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="obZ-Qa-rnp"/>
@@ -30,7 +30,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Kh-Lo-SI5">
-                    <rect key="frame" x="20" y="268" width="280" height="31"/>
+                    <rect key="frame" x="20" y="150" width="280" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="31" id="zrN-kp-x5O"/>
@@ -44,31 +44,49 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPK-te-AVn">
-                    <rect key="frame" x="20" y="319" width="280" height="31"/>
+                    <rect key="frame" x="20" y="201" width="280" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="31" id="2sP-tX-uBh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Dynamic Cells with Text">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="dynamicTextCellsButtonTapped:" destination="-1" eventType="touchUpInside" id="OOU-yF-AgG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwD-Lc-SRv">
+                    <rect key="frame" x="20" y="249" width="280" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="Dyr-0e-ILb"/>
+                        <constraint firstAttribute="width" constant="280" id="KkS-Dw-1QB"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <state key="normal" title="Colors!">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="colorsButtonTapped:" destination="-1" eventType="touchUpInside" id="Gcp-SA-Elg"/>
+                        <action selector="colorsButtonTapped:" destination="-1" eventType="touchUpInside" id="vNB-2n-WES"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="Fo8-ty-Pr3" secondAttribute="trailing" constant="20" symbolic="YES" id="01T-Il-Gj9"/>
+                <constraint firstItem="UwD-Lc-SRv" firstAttribute="top" secondItem="bPK-te-AVn" secondAttribute="bottom" constant="17" id="8An-Yo-wnz"/>
                 <constraint firstItem="Fo8-ty-Pr3" firstAttribute="trailing" secondItem="5Kh-Lo-SI5" secondAttribute="trailing" id="BXZ-MN-42Y"/>
                 <constraint firstItem="5Kh-Lo-SI5" firstAttribute="leading" secondItem="bPK-te-AVn" secondAttribute="leading" id="CJ0-IG-J6g"/>
                 <constraint firstItem="5Kh-Lo-SI5" firstAttribute="top" secondItem="Fo8-ty-Pr3" secondAttribute="bottom" constant="20" id="Dls-ia-qfp"/>
                 <constraint firstItem="bPK-te-AVn" firstAttribute="trailing" secondItem="5Kh-Lo-SI5" secondAttribute="trailing" id="IPW-i8-Edl"/>
+                <constraint firstItem="Fo8-ty-Pr3" firstAttribute="top" secondItem="1" secondAttribute="top" constant="100" id="Ytt-gp-vGY"/>
                 <constraint firstItem="5Kh-Lo-SI5" firstAttribute="leading" secondItem="Fo8-ty-Pr3" secondAttribute="leading" id="b5O-PE-0WS"/>
+                <constraint firstAttribute="centerX" secondItem="UwD-Lc-SRv" secondAttribute="centerX" id="goV-M1-swS"/>
                 <constraint firstAttribute="centerX" secondItem="5Kh-Lo-SI5" secondAttribute="centerX" id="odc-Dv-3ac"/>
                 <constraint firstItem="Fo8-ty-Pr3" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="ryJ-XV-Ei3"/>
-                <constraint firstItem="Fo8-ty-Pr3" firstAttribute="top" secondItem="1" secondAttribute="top" priority="999" constant="218" id="sJd-Qn-wlg"/>
+                <constraint firstItem="Fo8-ty-Pr3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="1" secondAttribute="top" priority="999" constant="100" id="sJd-Qn-wlg"/>
                 <constraint firstItem="bPK-te-AVn" firstAttribute="top" secondItem="5Kh-Lo-SI5" secondAttribute="bottom" constant="20" id="vFL-8m-sa1"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
