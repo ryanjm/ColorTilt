@@ -26,4 +26,10 @@
     // Configure the view for the selected state
 }
 
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    self.textView.contentInset = UIEdgeInsetsZero;
+}
+
 @end

@@ -1,1089 +1,0 @@
-TColorTilt
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist
-cProcessPCH /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.pch ColorTilt/ColorTilt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.o /Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.o /Users/ryanjm/code/ColorTilt/ColorTilt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.o /Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt normal armv7
-cCopyStringsFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/en.lproj/InfoPlist.strings ColorTilt/en.lproj/InfoPlist.strings
-cCopyPNGFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/iPhone-Launch@2x.png iPhone-Launch@2x.png
-cCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.xib
-cCopyPNGFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default.png ColorTilt/Default.png
-cCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.xib
-cCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.xib
-cCopyPNGFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default@2x.png ColorTilt/Default@2x.png
-cCopyPNGFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default-568h@2x.png ColorTilt/Default-568h@2x.png
-cCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.xib
-cCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/RMDynamicItemCell.xib
-cCompileAssetCatalog /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app /Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets
-cProcessInfoPlistFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Info.plist /Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Info.plist
-cGenerateDSYMFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app.dSYM /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt
-cProcessProductPackaging /Users/ryanjm/Library/MobileDevice/Provisioning\ Profiles/0AA3A581-8FC0-4F82-985E-A8FBDE777053.mobileprovision /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision
-cTouch /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent
-cCodeSign /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000525642EE0000000000000110
-t1381384942
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-c0000000052EDD75D0000000000000094
-t1391318877
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-c0000000052EDD75D0000000000000096
-t1391318877
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c0000000052EDD75D000000000000036B
-t1391318877
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052EDD75E00000000000001A0
-t1391318878
-s416
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c0000000052EDD763000000000079BFE0
-t1391318883
-s7978976
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000052EDD76300000000004D63C0
-t1391318883
-s5071808
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
-c0000000052EDD764000000000027C450
-t1391318884
-s2606160
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000052EDD7670000000000A92BC0
-t1391318887
-s11086784
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000052EDD77200000000025A5AC0
-t1391318898
-s39475904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-c0000000052EDD7840000000000387B30
-t1391318916
-s3701552
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-c0000000052EDD78C000000000001D2B0
-t1391318924
-s119472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-c0000000052EDD78B000000000054C820
-t1391318923
-s5556256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-c0000000052EDD78C0000000000028490
-t1391318924
-s165008
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-c0000000052EDD78C00000000000472B0
-t1391318924
-s291504
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-c0000000052EDD78C000000000003EB80
-t1391318924
-s256896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-c0000000052EDD78C000000000002AEE0
-t1391318924
-s175840
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-c0000000052EDD78C00000000000E2F20
-t1391318924
-s929568
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-c0000000052EDD78C00000000000A1FC0
-t1391318924
-s663488
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-c0000000052EDD78C000000000001E8A0
-t1391318924
-s125088
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-c0000000052EDD78C000000000000BF00
-t1391318924
-s48896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-c0000000052EDD78C0000000000034100
-t1391318924
-s213248
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-c0000000052EDD78C0000000000022F30
-t1391318924
-s143152
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-c0000000052EDD78C000000000001D1B0
-t1391318924
-s119216
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-c0000000052EDD78C0000000000051110
-t1391318924
-s332048
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-c0000000052EDD78C0000000000017E90
-t1391318924
-s97936
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-c0000000052EDD78D00000000001BA370
-t1391318925
-s1811312
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-c0000000052EDD78C000000000001EFF0
-t1391318924
-s126960
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-c0000000052EDD78C000000000002FA40
-t1391318924
-s195136
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-c0000000052EDD78D000000000008B3E0
-t1391318925
-s570336
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-c0000000052EDD78D00000000000B5FC0
-t1391318925
-s745408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-c0000000052EDD78D0000000000078620
-t1391318925
-s493088
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-c0000000052EDD78D0000000000060810
-t1391318925
-s395280
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-c0000000052EDD78D00000000000B6B40
-t1391318925
-s748352
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-c0000000052EDD78D0000000000039D00
-t1391318925
-s236800
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-c0000000052EDD78D000000000003E940
-t1391318925
-s256320
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-c0000000052EDD78D000000000002CF80
-t1391318925
-s184192
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-c0000000052EDD78D000000000001EB50
-t1391318925
-s125776
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-c0000000052EDD78D000000000001EDE0
-t1391318925
-s126432
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-c0000000052EDD78D00000000000213C0
-t1391318925
-s136128
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-c0000000052EDD78D00000000000ADAC0
-t1391318925
-s711360
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-c0000000052EDD83A0000000000005004
-t1391319098
-s20484
-
-N/Users/ryanjm/Library/MobileDevice/Provisioning Profiles/0AA3A581-8FC0-4F82-985E-A8FBDE777053.mobileprovision
-c0000000052EFD3030000000000002227
-t1391448835
-s8743
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent
-t1392593985
-s412
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/ColorTilt.LinkFileList
-c0000000053014C2500000000000005F6
-t1392593957
-s1526
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.o
-t1392593958
-s18884
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.o
-t1392599189
-s67236
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.o
-t1392253430
-s65968
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.o
-t1392662958
-s73612
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.o
-t1392601540
-s91012
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.o
-t1391810897
-s52216
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.o
-t1392252488
-s53312
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.o
-t1392599189
-s50400
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.o
-t1392824812
-s52292
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.o
-t1392825416
-s75580
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.o
-t1391810896
-s3344
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/assetcatalog_dependencies.txt
-t1391814081
-s241
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/assetcatalog_generated_info.plist
-t1391814081
-s520
-
-N/Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.pch
-t1391810896
-s5286388
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app
-t1392825416
-s748
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app.dSYM
-t1392825255
-s102
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt
-t1392825416
-s122000
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default-568h@2x.png
-t1391810950
-s7014
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default.png
-t1391810901
-s3688
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default@2x.png
-t1391810950
-s6316
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Info.plist
-t1391814081
-s1523
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/PkgInfo
-t1391814081
-s8
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMAutoLayoutViewController.nib
-t1391820470
-s136
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMColorMathViewController.nib
-t1392595867
-s136
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMDynamicItemCell.nib
-t1392759670
-s136
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMMenuViewController.nib
-t1392593985
-s136
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMTextViewCell.nib
-t1392825255
-s136
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist
-t1391810894
-s150
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision
-t1391810950
-s8743
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/en.lproj/InfoPlist.strings
-t1391810899
-s42
-
-N/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/iPhone-Launch@2x.png
-t1391812800
-s27121
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Info.plist
-c0000000052F5654400000000000005FB
-t1391813956
-s1531
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Prefix.pch
-c0000000052DD7C260000000000000141
-t1390246950
-s321
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Default-568h@2x.png
-c0000000051B1755C00000000000048A2
-t1370584412
-s18594
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Default.png
-c0000000051B1755C000000000000198C
-t1370584412
-s6540
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Default@2x.png
-c0000000051B1755C0000000000003EEB
-t1370584412
-s16107
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets
-c0000000052F565BD00000000000000AA
-t1391814077
-s170
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.h
-c0000000052A5BA3400000000000006A2
-t1386592820
-s1698
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m
-c0000000052A5BA34000000000000086E
-t1386592820
-s2158
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.h
-c0000000052DD7C26000000000000011D
-t1390246950
-s285
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m
-c00000000530160820000000000000914
-t1392599170
-s2324
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/RMDynamicItemCell.xib
-c000000005303D34D00000000000037A9
-t1392759629
-s14249
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.h
-c0000000052FBE1EE0000000000000102
-t1392239086
-s258
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m
-c0000000052FC19EF0000000000001E5A
-t1392253423
-s7770
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.h
-c0000000052F55FBC0000000000000107
-t1391812540
-s263
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m
-c00000000530259AA0000000000000DFC
-t1392662954
-s3580
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.xib
-c0000000052F57EA60000000000001CD4
-t1391820454
-s7380
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.h
-c00000000530121F300000000000000F1
-t1392583155
-s241
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m
-c00000000530169BC0000000000002061
-t1392601532
-s8289
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.xib
-c0000000053015395000000000000264B
-t1392595861
-s9803
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.h
-c000000005301233600000000000001A7
-t1392583478
-s423
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m
-c00000000530160930000000000000779
-t1392599187
-s1913
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.xib
-c00000000530126050000000000001F49
-t1392584197
-s8009
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.h
-c0000000052FD26370000000000000113
-t1392322103
-s275
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m
-c000000005304D446000000000000102F
-t1392825414
-s4143
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.h
-c0000000052DD7C7100000000000000CB
-t1390247025
-s203
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m
-c0000000052DD81AF00000000000007CF
-t1390248367
-s1999
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.h
-c0000000052FBFDDF0000000000000192
-t1392246239
-s402
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m
-c0000000052FC16160000000000000298
-t1392252438
-s664
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.h
-c000000005304D1EA000000000000018C
-t1392824810
-s396
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m
-c0000000052FD24BA0000000000000265
-t1392321722
-s613
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.xib
-c000000005304D3A70000000000001E8D
-t1392825255
-s7821
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/en.lproj/InfoPlist.strings
-c0000000052DD7C26000000000000002D
-t1390246950
-s45
-
-N/Users/ryanjm/code/ColorTilt/ColorTilt/main.m
-c0000000052DD7C260000000000000158
-t1390246950
-s344
-
-N/Users/ryanjm/code/ColorTilt/iPhone-Launch@2x.png
-c0000000052F56085000000000000AAC8
-t1391812741
-s43720
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m
-r0
-
-CBuild AST from /Users/ryanjm/code/ColorTilt/ColorTilt/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies17b7e9c60bb5b841^be88eac60bb5b841^---0#1#1#--18"Check dependencies36"04FC1921-8A93-44FE-AE31-87A4588D12A9-
-
-CCodeSign /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app
-s414518216.920585
-e414518217.724366
-r1
-xCodeSign
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CodeSign Build/Products/Debug-iphoneos/ColorTilt.app52"CodeSign Build/Products/Debug-iphoneos/ColorTilt.appf3ccebc80bb5b841^d670b9c90bb5b841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/0000000000000000^970"CodeSign Build/Products/Debug-iphoneos/ColorTilt.app    cd /Users/ryanjm/code/ColorTilt    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Matthew Gornick (SMNWCKWULM)" and provisioning profile "iOS Team Provisioning Profile: *" (0AA3A581-8FC0-4F82-985E-A8FBDE777053)    codesign --force --sign 757F35D65653DF8850CBF2A52D12E69A51AA68C5 --resource-rules=/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist --entitlements /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app36"26C32BE8-4388-42E6-912D-FAED7478CA15-
-b3DEED0C4-830D-493E-848E-98EBFF103A86
-
-CCompileAssetCatalog /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app /Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets
-s413506881.311611
-e413506881.496060
-r1
-xCompileAssetCatalog
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app
-x/Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets
-o/* com.apple.actool.document.warnings */
-o/Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets:./LaunchImage.launchimage: warning: Targeting releases prior to iOS 7.0, but all launch images specify a minimum version of 7.0 or later.
-o/Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets:./LaunchImage.launchimage: warning: An iPhone Retina (4-inch) launch image for iOS 7.0 and later is required.
-o/Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets:./LaunchImage.launchimage: warning: An iPhone Retina (4-inch) launch image for iOS 6.x and prior is required when targetting releases prior to 7.0.
-o/* com.apple.actool.compilation-results */
-o/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/LaunchImage-700@2x.png
-o/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CompileAssetCatalog Build/Products/Debug-iphoneos/ColorTilt.app ColorTilt/Images.xcassets89"CompileAssetCatalog Build/Products/Debug-iphoneos/ColorTilt.app ColorTilt/Images.xcassets33e14f419da5b841^29777f419da5b841^-872"/* com.apple.actool.document.warnings *//Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets:./LaunchImage.launchimage: warning: Targeting releases prior to iOS 7.0, but all launch images specify a minimum version of 7.0 or later./Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets:./LaunchImage.launchimage: warning: An iPhone Retina (4-inch) launch image for iOS 7.0 and later is required./Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets:./LaunchImage.launchimage: warning: An iPhone Retina (4-inch) launch image for iOS 6.x and prior is required when targetting releases prior to 7.0./* com.apple.actool.compilation-results *//Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/LaunchImage-700@2x.png/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/assetcatalog_generated_info.plist3(21%IDEActivityLogMessage2@101"Targeting releases prior to iOS 7.0, but all launch images specify a minimum version of 7.0 or later.-413506881#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@62"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--2@73"An iPhone Retina (4-inch) launch image for iOS 7.0 and later is required.107"/Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets:./LaunchImage.launchimage: warning: An iPhone Retina413506881#18446744073709551615#0#-1#-3@62"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--2@111"An iPhone Retina (4-inch) launch image for iOS 6.x and prior is required when targetting releases prior to 7.0.107"/Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets:./LaunchImage.launchimage: warning: An iPhone Retina413506881#18446744073709551615#0#-1#-3@62"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--0#0#1#-19%DVTDocumentLocation4@62"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets/0000000000000000^1038"CompileAssetCatalog Build/Products/Debug-iphoneos/ColorTilt.app ColorTilt/Images.xcassets    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 6.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app /Users/ryanjm/code/ColorTilt/ColorTilt/Images.xcassets36"EDE9252A-56B4-4BD3-9FCB-9ACFA4610EA3-
-bA8802838-1FA0-4B48-B657-BD682A3ACE51
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.o /Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s414286757.371507
-e414286758.884192
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m213"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.o ColorTilt/KeyValueObserver.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler20966da583b1b841^6150e2a683b1b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m0000000000000000^3254"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.o ColorTilt/KeyValueObserver.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.o36"B8E70B77-E4CA-4AB8-8A92-81927AD638A0-
-b3CB019F7-F127-40C5-8C2A-925DF89386DE
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.o /Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s414291989.048097
-e414291989.163826
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.h
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m207"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.o ColorTilt/RMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler317c0c1598b1b841^b5fb291598b1b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m0000000000000000^3236"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.o ColorTilt/RMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.o36"DD8B98CF-E6F7-4F97-B7FF-6F9B8DB29C5E-
-b8B1D1A27-1448-405D-99AA-832732546230
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413946230.107901
-e413946230.435606
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.h
-d/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m259"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.o ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler22c21b7651acb841^13ba6f7651acb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m0000000000000000^3376"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.o ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.o36"F30E9229-138E-4D9D-8BCB-C293C26CADDB-
-b489E97F5-4306-4DC0-A017-15400B72230E
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s414355758.560079
-e414355758.702556
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m249"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.o ColorTilt/ViewControllers/RMAutoLayoutViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9c878f2e91b2b841^05dcb32e91b2b841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m0000000000000000^3346"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.o ColorTilt/ViewControllers/RMAutoLayoutViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.o36"2BC2FF1F-4787-401B-A7B1-4BE2AA62234B-
-b5867113D-6E1A-4DCD-9806-6DF1629C60DE
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s414294340.464328
-e414294340.619935
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.h
-d/Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m247"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.o ColorTilt/ViewControllers/RMColorMathViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler32017744a1b1b841^7fa2a644a1b1b841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m0000000000000000^3340"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.o ColorTilt/ViewControllers/RMColorMathViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.o36"D22D73F9-86A4-4238-9B94-E29AE3F0AA40-
-bBE88130E-3F03-4D22-9806-72745AC6AE13
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413503696.969245
-e413503697.119833
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m209"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.o ColorTilt/Views/RMColorTilt.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3f52f8d090a5b841^d9b01ed190a5b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m0000000000000000^3236"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.o ColorTilt/Views/RMColorTilt.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.o36"58478691-4596-43F7-B4EA-FA29547E4F1F-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413945286.478339
-e413945288.402591
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m221"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.o ColorTilt/Views/RMDynamicItemCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler52d67bc64dacb841^021067c84dacb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m0000000000000000^3272"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.o ColorTilt/Views/RMDynamicItemCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.o36"A159B3CC-A867-49BB-B105-8C4DBC41391A-
-b1ACF1574-8B70-4A07-94F6-8B02D2ED9183
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s414291987.899072
-e414291989.047595
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.h
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.h
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.h
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.h
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m237"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.o ColorTilt/ViewControllers/RMMenuViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2656e61398b1b841^4b210c1598b1b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m0000000000000000^3310"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.o ColorTilt/ViewControllers/RMMenuViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.o36"59A1CE66-43F7-4F76-A1EA-20B17BB90FCD-
-b8B1D1A27-1448-405D-99AA-832732546230
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s414517611.068047
-e414517612.791648
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m215"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.o ColorTilt/Views/RMTextViewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0ce6176b09b5b841^a3ccca6c09b5b841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m0000000000000000^3254"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.o ColorTilt/Views/RMTextViewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.o36"D5ED7B35-8542-4D25-9865-27722CC7A22A-
-b9D8C2B89-C0CC-4AC0-AAFD-96C036082C62
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s414518214.919374
-e414518216.046224
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.h
-d/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m255"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.o ColorTilt/ViewControllers/RMTextViewTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilercb84ebc60bb5b841^043c0dc80bb5b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m0000000000000000^3364"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.o ColorTilt/ViewControllers/RMTextViewTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.o36"06EEF381-F6F2-45CD-B80C-0B4EE18DABC4-
-b3DEED0C4-830D-493E-848E-98EBFF103A86
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.o /Users/ryanjm/code/ColorTilt/ColorTilt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413503696.744245
-e413503696.947102
-r1
-xCompileC
-xBuild/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.o
-x/Users/ryanjm/code/ColorTilt/ColorTilt/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/main.m
-d/Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/ryanjm/code/ColorTilt/ColorTilt/main.m189"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.o ColorTilt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf4a6bed090a5b841^c26bf3d090a5b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/ryanjm/code/ColorTilt/ColorTilt/main.m0000000000000000^3182"CompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.o ColorTilt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -include /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.dia -c /Users/ryanjm/code/ColorTilt/ColorTilt/main.m -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.o36"5A168E95-7460-414F-9640-104A187F85A7-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/KeyValueObserver.o /Users/ryanjm/code/ColorTilt/ColorTilt/KeyValueObserver.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMAppDelegate.o /Users/ryanjm/code/ColorTilt/ColorTilt/RMAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMAutoLayoutTableViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutTableViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMAutoLayoutViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMColorMathViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMColorTilt.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMColorTilt.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMDynamicItemCell.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMDynamicItemCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMMenuViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMTextViewCell.o /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/RMTextViewTableViewController.o /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMTextViewTableViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/main.o /Users/ryanjm/code/ColorTilt/ColorTilt/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/RMDynamicItemCell.xib
-s414452431.707723
-e414452470.180921
-r1
-xCompileXIB
-x/Users/ryanjm/code/ColorTilt/ColorTilt/RMDynamicItemCell.xib
-o2014-02-18 14:40:54.904 Interface Builder Cocoa Touch Tool[18737:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o2014-02-18 14:41:08.981 Interface Builder Cocoa Touch Tool[18743:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/ryanjm/code/ColorTilt/ColorTilt/RMDynamicItemCell.xib42"CompileXIB ColorTilt/RMDynamicItemCell.xibd15ab5cf0ab4b841^04562ef60ab4b841^-462"2014-02-18 14:40:54.904 Interface Builder Cocoa Touch Tool[18737:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2014-02-18 14:41:08.981 Interface Builder Cocoa Touch Tool[18743:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ryanjm/code/ColorTilt/ColorTilt/RMDynamicItemCell.xib0000000000000000^683"CompileXIB ColorTilt/RMDynamicItemCell.xib    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMDynamicItemCell.nib /Users/ryanjm/code/ColorTilt/ColorTilt/RMDynamicItemCell.xib36"EE4FAFC9-352D-4260-8CE6-1E3470BA22A6-
-b43883546-F402-43D8-B51C-E121ABE78A8D
-
-CCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.xib
-s413513257.867138
-e413513270.108049
-r1
-xCompileXIB
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.xib
-o2014-02-07 17:47:48.855 Interface Builder Cocoa Touch Tool[95352:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.xib67"CompileXIB ColorTilt/ViewControllers/RMAutoLayoutViewController.xib0518de29b6a5b841^6cb51b36b6a5b841^-231"2014-02-07 17:47:48.855 Interface Builder Cocoa Touch Tool[95352:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@92"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.xib0000000000000000^742"CompileXIB ColorTilt/ViewControllers/RMAutoLayoutViewController.xib    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMAutoLayoutViewController.nib /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMAutoLayoutViewController.xib36"2F5680BE-5972-40EB-A759-DF3471630A5D-
-b9EA4F298-5F0E-4166-BD2E-6430D7078504
-
-CCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.xib
-s414288663.469281
-e414288667.901764
-r1
-xCompileXIB
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.xib
-o2014-02-16 17:11:06.142 Interface Builder Cocoa Touch Tool[1591:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o2014-02-16 17:11:07.557 Interface Builder Cocoa Touch Tool[1596:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compiling /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.xib66"CompileXIB ColorTilt/ViewControllers/RMColorMathViewController.xib683d78178bb1b841^59dde61b8bb1b841^-460"2014-02-16 17:11:06.142 Interface Builder Cocoa Touch Tool[1591:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2014-02-16 17:11:07.557 Interface Builder Cocoa Touch Tool[1596:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@91"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.xib0000000000000000^739"CompileXIB ColorTilt/ViewControllers/RMColorMathViewController.xib    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMColorMathViewController.nib /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMColorMathViewController.xib36"236EB12D-737B-4B90-8A28-0F276F5FFDB6-
-b6F3BE1C4-EA32-48B3-A377-542359349E03
-
-CCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.xib
-s414286760.198283
-e414286785.271515
-r1
-xCompileXIB
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.xib
-o2014-02-16 16:39:36.681 Interface Builder Cocoa Touch Tool[982:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o2014-02-16 16:39:44.645 Interface Builder Cocoa Touch Tool[995:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compiling /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.xib61"CompileXIB ColorTilt/ViewControllers/RMMenuViewController.xib1edf32a883b1b841^aa8245c183b1b841^-458"2014-02-16 16:39:36.681 Interface Builder Cocoa Touch Tool[982:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2014-02-16 16:39:44.645 Interface Builder Cocoa Touch Tool[995:303] CFPreferences: user home directory at file:///Users/ryanjm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@86"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.xib0000000000000000^724"CompileXIB ColorTilt/ViewControllers/RMMenuViewController.xib    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMMenuViewController.nib /Users/ryanjm/code/ColorTilt/ColorTilt/ViewControllers/RMMenuViewController.xib36"FA85B1E1-2E53-408F-AA4F-C3B03992B361-
-b3CB019F7-F127-40C5-8C2A-925DF89386DE
-
-CCompileXIB /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.xib
-s414518055.107623
-e414518055.626332
-r1
-xCompileXIB
-x/Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compiling /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.xib45"CompileXIB ColorTilt/Views/RMTextViewCell.xibcaa71b270bb5b841^3e75a0270bb5b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.xib0000000000000000^686"CompileXIB ColorTilt/Views/RMTextViewCell.xib    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/RMTextViewCell.nib /Users/ryanjm/code/ColorTilt/ColorTilt/Views/RMTextViewCell.xib36"E55A3A8F-BCD3-474D-854C-7407817F617E-
-b32B77F59-3235-4FB0-8559-878E92AD8BA8
-
-CCopyPNGFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default-568h@2x.png ColorTilt/Default-568h@2x.png
-s413503749.604531
-e413503750.039023
-r1
-xCopyPNGFile
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default-568h@2x.png
-xColorTilt/Default-568h@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default-568h@2x.png ColorTilt/Default-568h@2x.png105"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default-568h@2x.png ColorTilt/Default-568h@2x.pngcbd69a0591a5b841^fcfe090691a5b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Default-568h@2x.png0000000000000000^593"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default-568h@2x.png ColorTilt/Default-568h@2x.png    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/ryanjm/code/ColorTilt/ColorTilt/Default-568h@2x.png /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default-568h@2x.png36"5DD875EF-40DC-48F8-845C-B24B2C03D997-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CCopyPNGFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default.png ColorTilt/Default.png
-s413503699.121281
-e413503701.248613
-r1
-xCopyPNGFile
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default.png
-xColorTilt/Default.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default.png ColorTilt/Default.png89"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default.png ColorTilt/Default.png3e251fd390a5b841^f4a53fd590a5b841^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Default.png0000000000000000^561"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default.png ColorTilt/Default.png    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/ryanjm/code/ColorTilt/ColorTilt/Default.png /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default.png36"E6793C4A-D5E5-4EEA-8698-F775728C77EE-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CCopyPNGFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default@2x.png ColorTilt/Default@2x.png
-s413503749.604142
-e413503750.022607
-r1
-xCopyPNGFile
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default@2x.png
-xColorTilt/Default@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default@2x.png ColorTilt/Default@2x.png95"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default@2x.png ColorTilt/Default@2x.pngd7c09a0591a5b841^c1ca050691a5b841^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/ryanjm/code/ColorTilt/ColorTilt/Default@2x.png0000000000000000^573"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/Default@2x.png ColorTilt/Default@2x.png    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/ryanjm/code/ColorTilt/ColorTilt/Default@2x.png /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Default@2x.png36"AF665131-DF3C-4934-A9EC-9A736EA8673C-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CCopyPNGFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/iPhone-Launch@2x.png iPhone-Launch@2x.png
-s413505595.290406
-e413505600.148633
-r1
-xCopyPNGFile
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/iPhone-Launch@2x.png
-xiPhone-Launch@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/iPhone-Launch@2x.png iPhone-Launch@2x.png97"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/iPhone-Launch@2x.png iPhone-Launch@2x.png2f6f4a3b98a5b841^cc0d264098a5b841^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/ryanjm/code/ColorTilt/iPhone-Launch@2x.png0000000000000000^577"CopyPNGFile Build/Products/Debug-iphoneos/ColorTilt.app/iPhone-Launch@2x.png iPhone-Launch@2x.png    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/ryanjm/code/ColorTilt/iPhone-Launch@2x.png /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/iPhone-Launch@2x.png36"951D81D8-1246-476A-B846-9BD17111E7E6-
-b80286B46-AB3D-4A80-96AD-01E40DA075A8
-
-CCopyStringsFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/en.lproj/InfoPlist.strings ColorTilt/en.lproj/InfoPlist.strings
-s413503699.105772
-e413503699.121007
-r1
-xCopyStringsFile
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/en.lproj/InfoPlist.strings
-xColorTilt/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy ColorTilt/en.lproj/InfoPlist.strings123"CopyStringsFile Build/Products/Debug-iphoneos/ColorTilt.app/en.lproj/InfoPlist.strings ColorTilt/en.lproj/InfoPlist.stringscb2f1bd390a5b841^a6091fd390a5b841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/ryanjm/code/ColorTilt/ColorTilt/en.lproj/InfoPlist.strings0000000000000000^560"CopyStringsFile Build/Products/Debug-iphoneos/ColorTilt.app/en.lproj/InfoPlist.strings ColorTilt/en.lproj/InfoPlist.strings    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/en.lproj -- ColorTilt/en.lproj/InfoPlist.strings36"51DFF094-E4A1-4B13-8544-3E1E9A5EE443-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist
-s413503694.475815
-e413503694.493549
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-xBuild/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist196"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plistd4467dce90a5b841^2d5fafce90a5b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist0034e82ddeffdf42^728"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app36"D1A88812-281F-430B-BC9C-558D860B4C88-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CCreateUniversalBinary /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt normal armv7\ armv7s
-r0
-
-CGenerateDSYMFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app.dSYM /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt
-s414518216.869755
-e414518216.918580
-r1
-xGenerateDSYMFile
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app.dSYM
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generate /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app.dSYM119"GenerateDSYMFile Build/Products/Debug-iphoneos/ColorTilt.app.dSYM Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt3cbddec80bb5b841^3d29ebc80bb5b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app.dSYM/0000000000000000^608"GenerateDSYMFile Build/Products/Debug-iphoneos/ColorTilt.app.dSYM Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt -o /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app.dSYM36"B35E0B2A-E149-406D-A116-6CE469C3DCB0-
-b3DEED0C4-830D-493E-848E-98EBFF103A86
-
-CLd /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/ColorTilt normal armv7
-r0
-
-CLd /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7s/ColorTilt normal armv7s
-r0
-
-CLd /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt normal armv7
-s414518216.052048
-e414518216.866038
-r1
-xLd
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt
-xnormal
-xarmv7
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/ColorTilt.LinkFileList
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutViewController.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMMenuViewController.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewCell.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorMathViewController.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/KeyValueObserver.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/main.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMDynamicItemCell.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAppDelegate.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMTextViewTableViewController.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMColorTilt.o
-d/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/RMAutoLayoutTableViewController.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Link /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt69"Ld Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt normal armv7cc7a0dc80bb5b841^28b7ddc80bb5b841^---0#0#1#--1252"Ld Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt normal armv7    cd /Users/ryanjm/code/ColorTilt    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos -filelist /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/ColorTilt.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework CoreMotion -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/Objects-normal/armv7/ColorTilt_dependency_info.dat -o /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ColorTilt36"A599CB42-2995-4E5A-8726-B96E55927127-
-b3DEED0C4-830D-493E-848E-98EBFF103A86
-
-CProcessInfoPlistFile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Info.plist /Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Info.plist
-s413506881.496820
-e413506881.541933
-r1
-xProcessInfoPlistFile
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Info.plist
-x/Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Process /Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Info.plist106"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ColorTilt.app/Info.plist ColorTilt/ColorTilt-Info.plist228c7f419da5b841^6a688b419da5b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Info.plist0000000000000000^920"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ColorTilt.app/Info.plist ColorTilt/ColorTilt-Info.plist    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Info.plist -genpkginfo /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/ResourceRules.plist -additionalcontentfile /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/assetcatalog_generated_info.plist -o /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/Info.plist36"57A11846-F10C-45D2-9BA3-EC453BDBC33F-
-bA8802838-1FA0-4B48-B657-BD682A3ACE51
-
-CProcessPCH /Users/ryanjm/Library/Developer/Xcode/DerivedData/ColorTilt-gwfvaaeuovkuetewtcilpbsnhqow/Index/PrecompiledHeaders/ColorTilt-Prefix-azgqpbvumspoizfmnkyjqausltvw_ast/ColorTilt-Prefix.pch.pch ColorTilt/ColorTilt-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/ryanjm/Library/Developer/Xcode/DerivedData/ColorTilt-gwfvaaeuovkuetewtcilpbsnhqow/Index/PrecompiledHeaders/ColorTilt-Prefix-gtfiilqqgcfuqtettzvldaggpnhp_ast/ColorTilt-Prefix.pch.pch ColorTilt/ColorTilt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-cfwriyujwoptquhcnduvevpsrxih/ColorTilt-Prefix.pch.pch ColorTilt/ColorTilt-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.pch ColorTilt/ColorTilt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s413503694.494511
-e413503696.742298
-r1
-xProcessPCH
-x/Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.pch
-xColorTilt/ColorTilt-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ColorTilt/ColorTilt-Prefix.pch220"ProcessPCH Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.pch ColorTilt/ColorTilt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler8bfc7ece90a5b841^5709bed090a5b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Prefix.pch0000000000000000^3131"ProcessPCH Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.pch ColorTilt/ColorTilt-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanjm/code/ColorTilt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-generated-files.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-own-target-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-all-target-headers.hmap -iquote /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt-project-headers.hmap -I/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources/armv7 -I/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/DerivedSources -F/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.dia -MMD -MT dependencies -MF /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.d -c /Users/ryanjm/code/ColorTilt/ColorTilt/ColorTilt-Prefix.pch -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/PrecompiledHeaders/ColorTilt-Prefix-frmbzofvlilndzbooynpbnsqrhro/ColorTilt-Prefix.pch.pch36"BBA8DEAE-7388-4B96-BAD8-C1BA4D286C3B-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent
-s414286785.575437
-e414286785.609074
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-x/Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent950d97c183b1b841^3a029cc183b1b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent0000000000000000^750"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/ryanjm/code/ColorTilt/Build/Intermediates/ColorTilt.build/Debug-iphoneos/ColorTilt.build/ColorTilt.xcent36"BE3295B9-B615-460B-B7BF-172FC347D9C5-
-b3CB019F7-F127-40C5-8C2A-925DF89386DE
-
-CProcessProductPackaging /Users/ryanjm/Library/MobileDevice/Provisioning\ Profiles/0AA3A581-8FC0-4F82-985E-A8FBDE777053.mobileprovision /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision
-s413503750.039965
-e413503750.102556
-r1
-xProcessProductPackaging
-x/Users/ryanjm/Library/MobileDevice/Provisioning Profiles/0AA3A581-8FC0-4F82-985E-A8FBDE777053.mobileprovision
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection203"ProcessProductPackaging /Users/ryanjm/Library/MobileDevice/Provisioning\ Profiles/0AA3A581-8FC0-4F82-985E-A8FBDE777053.mobileprovision Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision203"ProcessProductPackaging /Users/ryanjm/Library/MobileDevice/Provisioning\ Profiles/0AA3A581-8FC0-4F82-985E-A8FBDE777053.mobileprovision Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision94500a0691a5b841^24431a0691a5b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision0034e82ddeffdf42^676"ProcessProductPackaging /Users/ryanjm/Library/MobileDevice/Provisioning\ Profiles/0AA3A581-8FC0-4F82-985E-A8FBDE777053.mobileprovision Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/ryanjm/Library/MobileDevice/Provisioning\ Profiles/0AA3A581-8FC0-4F82-985E-A8FBDE777053.mobileprovision -o /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app/embedded.mobileprovision36"A839D45C-0D26-44A9-9EAC-06C2B113EDE7-
-b49E36208-A635-408D-BD9C-6ED3CCC532E6
-
-CTouch /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app
-s414015590.755234
-e414015590.873234
-r1
-xTouch
-x/Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app49"Touch Build/Products/Debug-iphoneos/ColorTilt.appc973c56660adb841^d68ddf6660adb841^---0#0#1#--369"Touch Build/Products/Debug-iphoneos/ColorTilt.app    cd /Users/ryanjm/code/ColorTilt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ryanjm/code/ColorTilt/Build/Products/Debug-iphoneos/ColorTilt.app36"A681188D-F4B7-4C3E-9BD4-BD40093790A8-
-b1ECBA0F6-FBDD-426D-B998-2543230C15B4
-
