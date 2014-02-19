@@ -10,6 +10,8 @@
 
 @interface RMTextViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UITextView *textView;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *textViewHeight;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *subtextLabel;
+
 
 @end

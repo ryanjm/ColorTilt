@@ -70,10 +70,7 @@
     RMTextViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     cell.textView.delegate = self;
-    cell.textView.tag = indexPath.row;
-    cell.textView.text = [self.textStrings objectAtIndex:indexPath.row];
-    
-    cell.textView.scrollEnabled = NO;
+    [self configureCell:cell forIndexPath:indexPath];
     [cell.textView needsUpdateConstraints];
 //    if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1){
 //        cell.textView.textContainer.heightTracksTextView = YES;
@@ -85,34 +82,37 @@
     return cell;
 }
 
+- (void)configureCell:(RMTextViewCell*)cell forIndexPath:(NSIndexPath*)indexPath
+{
+    cell.textView.tag = indexPath.row;
+    cell.textView.text = [self.textStrings objectAtIndex:indexPath.row];
+    
+    cell.textView.scrollEnabled = NO;
+    
+    cell.titleLabel.text = @"This is a longer title";
+    cell.subtextLabel.text = @"And a longer subtext";
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    // use cached height if there is one (and it isn't the selected row)
     if ([self.selectedRow integerValue] != indexPath.row && indexPath.row < [self.rowHeights count]){
         return [[self.rowHeights objectAtIndex:indexPath.row] floatValue];
     }
     
-    
     static NSString *CellIdentifier = @"RMTextViewCell";
     RMTextViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    cell.textView.text = [self.textStrings objectAtIndex:indexPath.row];
+    [self configureCell:cell forIndexPath:indexPath];
     
-//    [cell setNeedsUpdateConstraints];
-//    [cell updateConstraintsIfNeeded];
-//    cell.bounds = CGRectMake(0.0f, 0.0f, CGRectGetWidth(tableView.bounds), CGRectGetHeight(cell.bounds));
-//    [cell setNeedsLayout];
     [cell layoutIfNeeded];
-    
-    CGSize size = [cell.textView sizeThatFits:CGSizeMake(cell.textView.frame.size.width, 9999)];
-//    cell.textViewHeight.constant = size.height;
-    CGFloat diff = size.height - cell.textView.frame.size.height;
-    
-    CGFloat height = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
 
-    height += 1 + diff;
+    CGFloat height = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+    height += 1; // add 1 for border
     
-    NSLog(@"height(%f) diff(%f)", height, diff);
+    NSLog(@"height(%f)", height);
     
     NSNumber *h = @(height);
     [self.rowHeights setObject:h atIndexedSubscript:indexPath.row];
+    
     return height;
 }
 
